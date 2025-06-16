@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: hsl(60, 100%, 97%);
+  --foreground: hsl(20, 46%, 12%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(35, 36%, 66%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom Murungi Cakes colors */
+  --warm-gold: hsl(35, 36%, 66%);
+  --chocolate-brown: hsl(25, 53%, 31%);
+  --sweet-pink: hsl(330, 100%, 70%);
+  --cream-bg: hsl(60, 100%, 97%);
+  --dark-brown: hsl(20, 46%, 12%);
+  --moccasin: hsl(45, 100%, 88%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(35, 36%, 66%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-lato antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer utilities {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .text-warm-gold {
+    color: var(--warm-gold);
+  }
+  
+  .text-chocolate-brown {
+    color: var(--chocolate-brown);
+  }
+  
+  .text-sweet-pink {
+    color: var(--sweet-pink);
+  }
+  
+  .text-dark-brown {
+    color: var(--dark-brown);
+  }
+  
+  .bg-warm-gold {
+    background-color: var(--warm-gold);
+  }
+  
+  .bg-chocolate-brown {
+    background-color: var(--chocolate-brown);
+  }
+  
+  .bg-sweet-pink {
+    background-color: var(--sweet-pink);
+  }
+  
+  .bg-cream-bg {
+    background-color: var(--cream-bg);
+  }
+  
+  .bg-dark-brown {
+    background-color: var(--dark-brown);
+  }
+  
+  .bg-moccasin {
+    background-color: var(--moccasin);
+  }
+
+  .border-warm-gold {
+    border-color: var(--warm-gold);
+  }
+
+  .hover\:bg-chocolate-brown:hover {
+    background-color: var(--chocolate-brown);
+  }
+
+  .hover\:text-warm-gold:hover {
+    color: var(--warm-gold);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
