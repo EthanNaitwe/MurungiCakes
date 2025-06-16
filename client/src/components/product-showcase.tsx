@@ -24,7 +24,7 @@ const products = [
     category: "Daddies",
     description: "Traditional favorites and specialty pastries",
     price: "UGX 1,500 each",
-    image: "https://images.unsplash.com/photo-1549388604-817d15aa0968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   }
 ];
 
