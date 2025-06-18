@@ -1,23 +1,66 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-import cake8 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58 (1)_1750255387614.jpeg";
-import cake9 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58 (2)_1750255387614.jpeg";
-import cake10 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56 (2)_1750255387617.jpeg";
+import cake1 from "@assets/WhatsApp Image 2025-06-18 at 10.28.55_1750255387618.jpeg";
+import cake2 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56_1750255387617.jpeg";
+import cake3 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56 (1)_1750255387617.jpeg";
+import cake4 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56 (2)_1750255387617.jpeg";
+import cake5 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57_1750255387616.jpeg";
+import cake6 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57 (1)_1750255387616.jpeg";
+import cake7 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57 (2)_1750255387615.jpeg";
+import cake8 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58_1750255387615.jpeg";
+import cake9 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58 (1)_1750255387614.jpeg";
+import cake10 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58 (2)_1750255387614.jpeg";
 
 const galleryImages = [
   {
-    title: "Custom Birthday Cake",
-    description: "Beautifully decorated celebration cake",
+    title: "Celebration Cake",
+    description: "Custom decorated birthday cake",
+    image: cake1
+  },
+  {
+    title: "Special Occasion",
+    description: "Beautifully crafted party cake",
+    image: cake2
+  },
+  {
+    title: "Wedding Delight",
+    description: "Elegant wedding celebration cake",
+    image: cake3
+  },
+  {
+    title: "Anniversary Special",
+    description: "Multi-layer anniversary cake",
+    image: cake4
+  },
+  {
+    title: "Birthday Creation",
+    description: "Colorful birthday cake design",
+    image: cake5
+  },
+  {
+    title: "Premium Design",
+    description: "Handcrafted premium cake",
+    image: cake6
+  },
+  {
+    title: "Festive Cake",
+    description: "Special celebration cake",
+    image: cake7
+  },
+  {
+    title: "Signature Style",
+    description: "Our signature cake creation",
     image: cake8
   },
   {
-    title: "Wedding Special",
-    description: "Elegant multi-tier wedding cake",
+    title: "Custom Order",
+    description: "Personalized cake design",
     image: cake9
   },
   {
-    title: "Artisan Creation",
-    description: "Handcrafted specialty cake design",
+    title: "Masterpiece",
+    description: "Artisan crafted masterpiece",
     image: cake10
   }
 ];
