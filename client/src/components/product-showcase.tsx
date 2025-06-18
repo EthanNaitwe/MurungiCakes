@@ -1,51 +1,59 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
+import cake1 from "@assets/WhatsApp Image 2025-06-18 at 10.28.55_1750255387618.jpeg";
+import cake2 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56_1750255387617.jpeg";
+import cake3 from "@assets/WhatsApp Image 2025-06-18 at 10.28.56 (1)_1750255387617.jpeg";
+import cake4 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57_1750255387616.jpeg";
+import cake5 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57 (1)_1750255387616.jpeg";
+import cake6 from "@assets/WhatsApp Image 2025-06-18 at 10.28.57 (2)_1750255387615.jpeg";
+import cake7 from "@assets/WhatsApp Image 2025-06-18 at 10.28.58_1750255387615.jpeg";
+
 const products = [
   {
     category: "Celebration Cakes",
     description: "Custom birthday, wedding, and special occasion cakes",
     price: "From UGX 50,000",
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: cake1
   },
   {
     category: "Cupcakes",
     description: "Individual treats perfect for any occasion",
     price: "UGX 3,500 each",
-    image: "https://images.unsplash.com/photo-1519869325930-281384150729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: cake2
   },
   {
     category: "Cookies",
     description: "Crispy, chewy, and perfectly sweet cookies",
     price: "UGX 2,000 each",
-    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: cake3
   },
   {
     category: "Daddies",
     description: "Traditional favorites and specialty pastries",
     price: "UGX 1,500 each",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: cake4
   }
 ];
 
 const featuredProducts = [
   {
-    name: "Chocolate Wedding Cake",
-    description: "Multi-layered chocolate cake with elegant decorations",
+    name: "Celebration Special",
+    description: "Beautiful custom decorated cakes for special occasions",
     price: "UGX 150,000",
-    image: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: cake5
   },
   {
-    name: "Red Velvet Cupcakes",
-    description: "Classic red velvet with cream cheese frosting",
+    name: "Premium Treats",
+    description: "Delicious handcrafted sweets made with love",
     price: "UGX 4,000 each",
-    image: "https://images.unsplash.com/photo-1587668178277-295251f900ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: cake6
   },
   {
-    name: "Artisan Cookie Collection",
-    description: "Premium cookies with nuts and chocolate",
+    name: "Signature Creation",
+    description: "Our finest baked goods with premium ingredients",
     price: "UGX 2,500 each",
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+    image: cake7
   }
 ];
 
